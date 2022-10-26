@@ -1,8 +1,6 @@
-#HELLO WORLD
-
 <html>
 <head>
-<title>Hello World!</title>
+<tittle>Hello World!</title>
 </head>
 <body>
 <h1 style=”text-align: center”>Hello World!<br/>Welcome to My Web
