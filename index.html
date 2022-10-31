@@ -14,7 +14,8 @@
         h1 { text-align : Center ; }
         p  { text-align : Center ; }
         hr { width : 50% ;}
-        .Author { text-align : center; }
+        .java {margin-bottom: 0;}
+pre {margin-top: 0;}
     </style> 
     
 </head>
@@ -81,7 +82,7 @@
        Grillmaster Tim Berners-Lee will be flipping burgers.
     </p>
     
-    <div>
+    <div class="java">
        Given the following JavaScript code fragment. If the
        user enters <kbd>1992</kbd>, then <var>benefitsYear</var>
        will be 2054, and the output will be <samp>The earliest
@@ -90,7 +91,7 @@
 <pre><code>
      var birthYear;     // 4 digit year of birth
      var benefitsYear;  // The year when social
-                     // security benefits can start
+                        // security benefits can start
                     
      birthYear = prompt("Enter your birth year:", "");
      benefitsYear = parseInt(birthYear) + 62;
